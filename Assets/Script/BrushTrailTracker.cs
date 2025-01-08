@@ -20,7 +20,7 @@ public class BrushTrailTracker : MonoBehaviour
     [Header("消えているときのCutOff")]
     [SerializeField] private float _disappearingCutOff = 10;
     [Header("現れるときのCutOff")]
-    [SerializeField] private float _appearingCutOff;
+    [SerializeField] private float _appearingCutOff = -0.5f;
     [Header("アニメーションのインターバル")]
     [SerializeField] private float _intervalTime = 0.5f;
     
